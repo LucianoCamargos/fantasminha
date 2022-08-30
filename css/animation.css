@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+@keyframes buu {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        transform: translateY(-20px);
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+img {
+    width: 300px;
+    margin-top: 300px;
+    animation: buu 3s infinite;
+}
